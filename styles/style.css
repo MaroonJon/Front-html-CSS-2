@@ -22,6 +22,7 @@ header {
     width: 1000px;
     margin: 0 auto;
     text-align: center;
+
 }
 header h1 {
     font-size: 95px;
@@ -31,6 +32,8 @@ header h1 {
 header p {
     font-size: 16px;
     text-align: center;
+    position: relative;
+    bottom: 30px;
 
 }
 .header-container button{
@@ -54,7 +57,15 @@ header p {
     border-bottom-left-radius: 20PX;
     border-top-left-radius: 20px;
     text-align: center;
-    border-style: none;
+    border-style: solid;
+    border-color: #1C2B32;
+    background: transparent;
+
+}
+#domain-search::placeholder{
+    color: #1C2B32;
+    font-weight: bold;
+
 }
 .main-container{
     width: 1000px;
