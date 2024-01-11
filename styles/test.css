@@ -1,0 +1,129 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+.main-container{
+    width: 1000px;
+    margin: auto;
+}
+.main-container h2{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+
+}
+
+
+/*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+}
+.header-container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+header h1 {
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+}
+header p {
+
+    font-size: 16px;
+    text-align: center;
+
+}
+.header-container button{
+    margin: -10px;
+    text-align: center;
+
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+.testimonials {
+    border-style: hidden;
+    border-width: medium;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/*///////////// 3.3 Support /////////////*/
+.costumer-service > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.costumer-service > button{
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: #1C2B32;
+    text-decoration: none;
+    font-size: 13px;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    position: relative;
+    right: 2px;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+.questions{
+    margin: 40px 40px 40px 0;
+}
+.questions > details{
+    padding: 15px 15px 15px 0;
+
+}
+
+/*///////////// 3.5 Footer /////////////*/
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: #1C2B32;
+    height: 50px;
+    padding: 5px;
+}
+footer p{
+    margin: 20px;
+}

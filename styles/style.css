@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    display: flex;
+    background-position: center;
+    margin: 0;
+
+}
+.header-container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+header h1 {
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+}
+header p {
+    font-size: 16px;
+    text-align: center;
+
+}
+.header-container button{
+    margin: -10px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    height: 50px;
+    width: 150px;
+    border-bottom-right-radius: 20PX;
+    border-top-right-radius: 20px;
+    background-color: #1C2B32;
+
+}
+#domain-search{
+    height: 50px;
+    width: 200px;
+    border-bottom-left-radius: 20PX;
+    border-top-left-radius: 20px;
+    text-align: center;
+    border-style: none;
+}
+.main-container{
+    width: 1000px;
+    margin: auto;
+}
+.main-container h2{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+
+}
+#client-1{
+    padding: 70px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.40);
+    width: 100%;
+    margin: 60px ;
+    margin-left: 0;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+}
+#client-2{
+    padding: 70px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.40);
+    width: 100%;
+    margin: 60px ;
+    margin-left: 0;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+}
+
+.costumer-service > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.costumer-service > button{
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: #1C2B32;
+    text-decoration: none;
+    font-size: 13px;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    position: relative;
+    right: 2px;
+}
+.questions{
+    margin: 40px 40px 40px 0;
+}
+.questions > details{
+    padding: 15px 15px 15px 0;
+
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: #1C2B32;
+    height: 50px;
+    padding: 5px;
+}
+footer p{
+    margin: 20px;
+}
